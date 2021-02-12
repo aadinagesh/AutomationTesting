@@ -1,0 +1,9 @@
+stepDefinitions\TestRunner.class
+stepDefinitions\LoginSteps.class
+or\LoginPage.class
+reuse\BusinessFunctions.class
+scripts\TC02.class
+or\CustomersPage.class
+or\HomePage.class
+scripts\TC01.class
+scripts\TC03.class

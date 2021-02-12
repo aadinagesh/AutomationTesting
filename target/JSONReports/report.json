@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-12T05:17:27.340Z",
+        "line": 5,
+        "name": "login to the application",
+        "description": "",
+        "id": "login-page;login-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44902000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser initialization",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.browser_initialization()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4790000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "link access",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.link_access()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "provide valid username and password",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.provide_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4090000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]
